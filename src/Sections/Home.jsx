@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <div className="flex flex-col items-center justify-center">
             <Navbar />
-            <div className="flex flex-col items-center justify-center text-center min-h-[87vh]">
+            <div className="flex flex-col items-center justify-center text-center min-h-[87vh] px-10 md:px-0">
                 <h1 className="text-white mb-4">
                     <h3 className='lg:text-2xl mb-2 text-xl'>Hi 👋 I am</h3>
                     <h1 className='lg:text-6xl text-5xl'>AYUSH GHODKE</h1>

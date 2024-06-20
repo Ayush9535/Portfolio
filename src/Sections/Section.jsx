@@ -3,7 +3,7 @@ import ProfileAyush from "../assets/ayushprofile.jpg"
 
 const AboutSection = () => {
   return (
-    <div className="w-full flex flex-col lg:flex-row bg-inherit items-center py-16 px-32">
+    <div className="w-full flex flex-col lg:flex-row bg-inherit items-center py-16 md:px-32">
         <div className='w-[30%] px-10 flex flex-col items-center justify-center'>
             <div className='w-60 h-60 rounded'>
                 <img src={ProfileAyush} alt="profile" className="rounded-full"/>
@@ -47,9 +47,9 @@ const AboutSection = () => {
                 </div>
             </div>
         </div>
-        <div className='text-gray-300 w-[80%] lg:px-20 px-10 mt-20 lg:mt-0'>
-            <h2 className='text-xl'>/about</h2>
-            <h1 className='text-4xl text-[#00FF29] drop-shadow-green'>Get to Know Me !!</h1>
+        <div className='text-gray-300 w-[80%] lg:px-20 px-6 mt-20 lg:mt-0'>
+            <h2 className='text-xl text-center md:text-left'>/about</h2>
+            <h1 className='text-[28px] text-[#00FF29] drop-shadow-green text-center md:text-left'>Get to Know Me !!</h1>
             <p className='text-md my-8'>Hello! I'm Ayush, an Enthusiastic Aspiring Learner diving headfirst into the exciting world of web development. My journey in this field is fueled by a passion for creating engaging and visually appealing web experiences that captivate users. Through dedication, practice, and perseverance, I aspire to evolve into a skilled full-stack developer, contributing to meaningful projects and making a positive impact on the digital world. Whether it's developing innovative solutions or optimizing existing systems, I am committed to delivering excellence in every project I undertake.</p>
         </div>
     </div>

@@ -34,10 +34,10 @@ const Projects = () => {
   ]
 
   return (
-    <div className='w-full flex flex-col bg-inherit items-center py-16 px-20'>
+    <div className='w-full flex flex-col bg-inherit items-center py-16 px-8 md:px-20'>
         <h2 className='text-xl text-gray-200'>/projects</h2>
-        <h1 className='text-4xl text-[#00FF29] drop-shadow-green mt-3'>Things I'vs built so far</h1>
-        <div className='mt-20 mb-10'>
+        <h1 className='text-3xl text-center text-[#00FF29] drop-shadow-green mt-3'>Things I'vs built so far</h1>
+        <div className='mt-20 md:mb-10'>
             {project.map((el,i) => {
               return <ProjectCard el={el} key={i}/>
             })}

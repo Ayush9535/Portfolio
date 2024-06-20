@@ -2,12 +2,12 @@ import React from 'react';
 
 const ContactSection = () => {
     return (
-        <div id="contact" className="w-full flex flex-col bg-inherit items-center text-center py-36 px-40">
+        <div id="contact" className="w-full flex flex-col bg-inherit items-center justify-center text-center py-36 md:px-40 px-6">
             <h2 className='text-xl text-gray-200'>/contact</h2>
             <h1 className='text-4xl text-[#00FF29] drop-shadow-green mt-3'>Reach Out to Me</h1>
             <div className="container mx-auto px-4">
                 <div className="flex flex-col md:flex-row justify-center items-center mt-20">
-                    <div className="w-[50%] mb-8 md:mb-0 flex justify-center items-center">
+                    <div className="md:w-[50%] w-full mb-8 md:mb-0 flex justify-center items-center">
                         <form className='w-[60%]'>
                             <div className="mb-4 text-left">
                                 <label htmlFor="name" className="text-gray-200 block font-bold mb-2">
@@ -50,8 +50,8 @@ const ContactSection = () => {
                             </button>
                         </form>
                     </div>
-                    <div className="md:w-1/2 text-left pl-32 text-gray-200">
-                        <h3 className="text-4xl mb-4 text-[#00FF29]">Contact Information</h3>
+                    <div className="md:w-1/2 text-left md:pl-32 text-gray-200 mt-16 md:mt-0">
+                        <h3 className="text-3xl mb-4 text-[#00FF29]">Contact Information</h3>
                         <p className="mb-2 ml-10">
                             <span className="font-bold mr-3">Email:</span> ghodkeayush22@gmail.com
                         </p>

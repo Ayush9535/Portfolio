@@ -3,20 +3,20 @@ import React from 'react';
 
 const ProjectCard = ({el}) => {
   return (
-    <div className='flex items-center px-24 mb-10'>
-        <div className='w-[40%]'>
-            <div className='w-[75%] h-[80%] border-4 border-[#00FF29] rounded-md bg-inherit'>
+    <div className='flex flex-col md:flex-row items-center justify-center px-8 mb-10 w-full'>
+        <div className='w-[100%] md:w-[60%] md:ml-20'>
+            <div className='w-full md:w-[75%] h-[80%] border-4 border-[#00FF29] rounded-md bg-inherit'>
                 <img src={el.image} alt={el.title} className="w-[100%] h-[100%] rounded-md relative -top-4 left-4"/>
             </div>
         </div>
 
-        <div className="flex items-center justify-start w-[60%]">
-        <div className="rounded-lg p-8 w-full">
+        {/* <div className="flex items-center justify-start w-[60%]"> */}
+        <div className="flex items-start justify-center flex-col rounded-lg py-6 w-full pb-20 md:pb-0">
             <h1 className="text-3xl font-bold mb-4 text-white">{el.title}</h1>
             <p className="text-white mb-6">
             {el.desc}
             </p>
-            <div className="flex justify-start space-x-4 text-xs">
+            <div className="flex flex-wrap text-xs gap-3 md:space-x-3">
                 {el.tags.map((tag,i) => {
                     return  <button className="bg-gray-500 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded">
                         {tag}
@@ -46,7 +46,6 @@ const ProjectCard = ({el}) => {
                         </span></span>Code
                 </button></a>
             </div>
-        </div>
         </div>
     </div>
   );

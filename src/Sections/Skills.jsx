@@ -75,12 +75,12 @@ const Skills = () => {
 
     return (
         <div className='w-full flex flex-col bg-inherit items-center text-center py-36'>
-            <div className='w-[40%] m-auto'>
+            <div className='w-[90%] md:w-[40%] m-auto'>
                 <h2 className='text-xl text-gray-200'>/skills</h2>
                 <h1 className='text-4xl text-[#00FF29] drop-shadow-green mt-3'>The Skills and Technologies <br />
                     I am Good at</h1>
-                <div className='w-full mt-16'>
-                    <div className='flex flex-wrap justify-center gap-6'>
+                <div className='w-full mt-16 flex justify-center items-center'>
+                    <div className='w-[80%] md:w-full flex flex-wrap justify-center gap-6'>
                         {skills.map((skill, index) => (
                             <div key={index} className='flex flex-col justify-center items-center'>
                                 <div>
