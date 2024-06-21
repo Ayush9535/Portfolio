@@ -3,17 +3,25 @@ import MongoDb from '../assets/mongodb.svg'
 import Git from '../assets/git.svg'
 import Tailwind from '../assets/tailwind-css.svg'
 import Postman from '../assets/postman.svg'
+import html from '../assets/html.svg'
+import css from '../assets/css.svg'
+import react from '../assets/react.svg'
+import nodejs from '../assets/nodejs.svg'
+import npm from '../assets/npm.svg'
+import mysql from '../assets/mysql.svg'
+import bootstrap from '../assets/bootstrap.svg'
+import vscode from '../assets/vscode.svg'
 
 const Skills = () => {
 
     let skills = [
         {
             name: "HTML",
-            icon: "https://raw.githubusercontent.com/bablubambal/All_logo_and_pictures/1ac69ce5fbc389725f16f989fa53c62d6e1b4883/social%20icons/html5.svg"
+            icon: html
         },
         {
             name: "CSS",
-            icon: "https://raw.githubusercontent.com/bablubambal/All_logo_and_pictures/1ac69ce5fbc389725f16f989fa53c62d6e1b4883/social%20icons/css3.svg"
+            icon: css
         },
         {
             name: "JavaScript",
@@ -21,11 +29,11 @@ const Skills = () => {
         },
         {
             name: "React",
-            icon: "https://raw.githubusercontent.com/bablubambal/All_logo_and_pictures/7c0ac2ceb9f9d24992ec393d11fa7337d2f92466/frameworks/react.svg"
+            icon: react
         },
         {
             name: "Node.js",
-            icon: "https://raw.githubusercontent.com/bablubambal/All_logo_and_pictures/1ac69ce5fbc389725f16f989fa53c62d6e1b4883/frameworks/nodejs.svg"
+            icon: nodejs
         },
         {
             name: "Express",
@@ -33,7 +41,7 @@ const Skills = () => {
         },
         {
             name: "npm",
-            icon: "https://raw.githubusercontent.com/bablubambal/All_logo_and_pictures/7c0ac2ceb9f9d24992ec393d11fa7337d2f92466/others/npm.svg"
+            icon: npm 
         },
         {
             name: "MongoDB",
@@ -41,11 +49,11 @@ const Skills = () => {
         },
         {
             name: "MySql",
-            icon: "https://raw.githubusercontent.com/bablubambal/All_logo_and_pictures/7c0ac2ceb9f9d24992ec393d11fa7337d2f92466/databases/mysql.svg"
+            icon: mysql
         },
         {
             name: "BootStrap",
-            icon: "https://raw.githubusercontent.com/bablubambal/All_logo_and_pictures/7c0ac2ceb9f9d24992ec393d11fa7337d2f92466/frameworks/boostrap.svg"
+            icon: bootstrap
         },
         {
             name: "Tailwind",
@@ -69,7 +77,7 @@ const Skills = () => {
         },
         {
             name: "VSCode",
-            icon: "https://raw.githubusercontent.com/bablubambal/All_logo_and_pictures/62487087dc4f4f5efee637addbc67a16dd374bf6/text%20editors/vscode.svg"
+            icon: vscode
         }
     ]
 
