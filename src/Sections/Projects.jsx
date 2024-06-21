@@ -18,7 +18,7 @@ const Projects = () => {
     {
       title: "Chat.io - Realtime Chat Application",
       desc : "Chat.io is an innovative messaging platform designed with a focus on robust functionality to facilitate seamless communication. Utilizing socket.io, it enables users to chat in rooms with multiple participants in real time. I have focused on making the backend and not the frontend so it is quite basic. This Project was completely made for learning purpose.",
-      tags: ["React", "Express", "Socket.io"],
+      tags: ["React", "Tailwind Css", "Nodejs", "Express", "Mongodb", "Socket.io"],
       previewLink : "https://socket-io-e3s4.onrender.com",
       codeLink : "https://github.com/Ayush9535/Socket.io",
       image: Chatio
