@@ -6,11 +6,12 @@ import Postman from '../assets/postman.svg'
 import html from '../assets/html.svg'
 import css from '../assets/css.svg'
 import react from '../assets/react.svg'
-import nodejs from '../assets/nodejs.svg'
+import nodejs from '../assets/nodejs.png'
 import npm from '../assets/npm.svg'
 import mysql from '../assets/mysql.svg'
 import bootstrap from '../assets/bootstrap.svg'
 import vscode from '../assets/vscode.svg'
+import expressjs from '../assets/expressjs.png'
 
 const Skills = () => {
 
@@ -37,11 +38,11 @@ const Skills = () => {
         },
         {
             name: "Express",
-            icon: "https://img.icons8.com/?size=100&id=kg46nzoJrmTR&format=png&color=000000"
+            icon: expressjs
         },
         {
             name: "npm",
-            icon: npm 
+            icon: npm
         },
         {
             name: "MongoDB",
@@ -57,7 +58,7 @@ const Skills = () => {
         },
         {
             name: "Tailwind",
-            icon : Tailwind
+            icon: Tailwind
         },
         {
             name: "Python",
@@ -73,7 +74,7 @@ const Skills = () => {
         },
         {
             name: "Postman",
-            icon : Postman
+            icon: Postman
         },
         {
             name: "VSCode",
@@ -83,20 +84,19 @@ const Skills = () => {
 
     return (
         <div className='w-full flex flex-col bg-inherit items-center text-center py-36'>
-            <div className='w-[90%] md:w-[40%] m-auto'>
+            <div className='w-[90%] md:w-[60%] m-auto'>
                 <h2 className='text-xl text-gray-200'>/skills</h2>
                 <h1 className='text-4xl text-[#00FF29] drop-shadow-green mt-3'>The Skills and Technologies <br />
                     I am Good at</h1>
                 <div className='w-full mt-16 flex justify-center items-center'>
-                    <div className='w-[80%] md:w-full flex flex-wrap justify-center gap-6'>
-                        {skills.map((skill, index) => (
-                            <div key={index} className='flex flex-col justify-center items-center'>
-                                <div>
-                                    <img src={skill.icon} width="50px" height="50px"/>
+                    <div class="slider my-10">
+                        <div className='slide-track'>
+                            {skills.concat(skills).map((skill, index) => (
+                                <div className="slide" key={index}>
+                                    <img src={skill.icon} alt={skill.name} height="60" width="60" />
                                 </div>
-                                {/* <h1 className='text-gray-300'>{skill.name}</h1> */}
-                            </div>
-                        ))}
+                            ))}
+                        </div>
                     </div>
                 </div>
             </div >
