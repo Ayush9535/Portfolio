@@ -50,6 +50,7 @@ body{
   align-items: center;
   justify-content: center;
   width: calc(100px * 32);
+  gap: 20px
 }
 
 .slide {

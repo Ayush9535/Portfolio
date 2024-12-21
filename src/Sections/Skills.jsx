@@ -12,6 +12,8 @@ import mysql from '../assets/mysql.svg'
 import bootstrap from '../assets/bootstrap.svg'
 import vscode from '../assets/vscode.svg'
 import expressjs from '../assets/expressjs.png'
+import angularjs from '../assets/angularjs.svg'
+import springboot from '../assets/spring.svg'
 
 const Skills = () => {
 
@@ -33,12 +35,20 @@ const Skills = () => {
             icon: react
         },
         {
+            name: "Angular",
+            icon: angularjs
+        },
+        {
             name: "Node.js",
             icon: nodejs
         },
         {
             name: "Express",
             icon: expressjs
+        },
+        {
+            name: "Spring Boot",
+            icon: springboot
         },
         {
             name: "npm",
@@ -93,7 +103,7 @@ const Skills = () => {
                         <div className='slide-track'>
                             {skills.concat(skills).map((skill, index) => (
                                 <div className="slide" key={index}>
-                                    <img src={skill.icon} alt={skill.name} height="60" width="60" />
+                                    <img src={skill.icon} alt={skill.name} height="70" width="70" />
                                 </div>
                             ))}
                         </div>

@@ -11,7 +11,7 @@ const Home = () => {
                     <h1 className='lg:text-6xl text-5xl'>AYUSH GHODKE</h1>
                 </h1>
                 <p className="lg:text-lg text-md text-white mb-8">
-                    <p className='text-[#00FF29] lg:text-2xl text-xl mb-4 drop-shadow-green'>MERN STACK DEVELOPER</p>
+                    <p className='text-[#00FF29] lg:text-2xl text-xl mb-4 drop-shadow-green'>FULL STACK DEVELOPER</p>
                     Passionate About Code, Dedicated to Excellence <br />
                     in Web Development <br />
                     Let's build something amazing! 🚀

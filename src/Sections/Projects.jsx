@@ -3,6 +3,8 @@ import ProjectCard from '../Component/ProjectCard'
 import TastyTales from '../assets/tastytales.png'
 import Chatio from '../assets/chatio.png'
 import Dopahiya from "../assets/Dopahiya.png"
+import MoneyMate from "../assets/MoneyMate.png"
+import KidzWorld from "../assets/KidzWorld.png"
 
 const Projects = () => {
 
@@ -24,12 +26,20 @@ const Projects = () => {
       image: Chatio
     },
     {
-      title: "Tasty Tales - Recipe Ingredients",
-      desc : "Tasty Tales is a website where user get to see ingredients of various delicious dishes. It has Today's Special Section which shows different dish on every time. This project involves API Calls and API Testing majorly.",
-      tags: ["HTML", "CSS", "JS" , "API" , "POSTMAN"],
-      previewLink : "https://tasty-tales.netlify.app/",
-      codeLink : "https://github.com/Ayush9535/tastyTales-Recipe-Website-FEWDCA3",
-      image: TastyTales
+      title: "KidzWorld - Books, Toys and Crafts",
+      desc: "Kidzworld is a website where user can buy books, toys and crafts for their kids. It has a wide range of books and is a complete e-commerce website which includes test payment integration, cart system, order details etc.",
+      tags: ["Angular", "Spring Boot", "MongoDB", "POSTMAN", "Razorpay"],
+      previewLink: "https://mykidzworld.netlify.app/",
+      codeLink: "https://github.com/Ayush9535/PracticeProject_Angular_ECommerce",
+      image: KidzWorld
+    },
+    {
+      title: "MoneyMate - Expense Tracker",
+      desc: "MoneyMate is a simple expense tracker that allows users to manage their finances effectively. It includes a user-friendly interface for adding, editing, and deleting transactions. The app also provides a visual representation of the user's spending habits through a pie chart. MoneyMate is designed to help users track their expenses and make informed financial decisions.",
+      tags: ["Angular", "NodeJs", "MongoDB", "POSTMAN", "Chart.js"],
+      previewLink: "https://moneymate-client.vercel.app/",
+      codeLink: "https://github.com/bhagirathauti/MoneyMate",
+      image: MoneyMate
     }
   ]
 
